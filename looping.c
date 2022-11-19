@@ -9,8 +9,11 @@ int main()
 
     // METHOD 1 FOR
 
-    // for(int i = 0; i < 5; i++){
-    //     printf("%d",i);
+    // for (int i = 7;
+    //      i > 0;
+    //      i -= 2)
+    // {
+    //     printf("%d\n", i);
     // }
 
     // 7
@@ -19,23 +22,23 @@ int main()
     // 1
 
     // METHOD 2 DO-WHILE
-    // int i = 0;
+    // int i = 7;
     // do
     // {
-    //     printf("%d", i);
-    //     i++;
-    // } while (i < 5);
+    //     printf("%d\n", i);
+    //     i-=2;
+    // } while (i > 0);
 
-    // LOOPING 2 DIMENSI
-
-    // for (int i = 0; i < 5; i++)
-    // {
-    //     printf("%d/n", i);
-    //     for (int y = 0; y < 5; y++)
-    //     {
-    //         printf("%d", y);
-    //     }
-    // }
+    // LOOPING 2 DIMENSI  
+    // 00000 11111 44444 99999
+    for (int i = 0; i < 5; i++)
+    {
+        for (int y = 1; y < 6; y++)
+        {
+            printf("%d", y);
+        }
+        printf("\n");
+    }
 
     return 0;
 }
